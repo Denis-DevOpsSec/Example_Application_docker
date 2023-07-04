@@ -4,7 +4,7 @@ sudo apt update && sudo apt install nodejs npm
 sudo npm install -g pm2
 #stop any instance of the application running
 pm2 stop example_app
-cd ExampleApplication/
+cd Example_Application_docker/
 #install dependencies
 npm install
 #start application
